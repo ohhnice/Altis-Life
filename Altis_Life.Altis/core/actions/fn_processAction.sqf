@@ -16,14 +16,14 @@ _itemInfo = switch (_type) do
 {
 	case "oil": {["oilu","oilp",1200,"Processing Oil"];};
 	case "diamond": {["diamond","diamondc",1350,"Processing Diamond"]};
-	case "heroin": {["heroinu","heroinp",2100,"Processing Heroin"]};
+	case "heroin": {["heroinu","heroinp",2100,"Processing Heroin"]};    <<<
 	case "copper": {["copperore","copper_r",750,"Processing Copper"]};
 	case "iron": {["ironore","iron_r",1120,"Processing Iron"]};
 	case "sand": {["sand","glass",650,"Processing Sand"]};
 	case "salt": {["salt","salt_r",450,"Processing Salt"]};
 	case "cocaine": {["cocaine","cocainep",1500,"Processing Cocaine"]};
 	case "marijuana": {["cannabis","marijuana",500,"Processing Marijuana"]};
-	case "heroin": {["heroinu","heroinp",1720,"Processing Heroin"]};
+	case "heroin": {["heroinu","heroinp",1720,"Processing Heroin"]};   <<< 2 times heroin ?
 	case "cement": {["rock","cement",350,"Mixing Cement"]};
 	default {[]};
 };
